@@ -4,12 +4,12 @@
 	<!--Do Not Edit Above Here-->
 
 		<!--Copy From This Line-->
-		<Faction Tag="TEST" Founder="Testing">
+		<Faction Tag="TEST" Founder="Test">
 			<Id>
 				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>Testing</SubtypeId> <!--Must Be Unique-->
+				<SubtypeId>Test</SubtypeId> <!--Must Be Unique-->
 			</Id>
-			<DisplayName>The Testing</DisplayName>
+			<DisplayName>Test</DisplayName>
 			<IsDefault>true</IsDefault>
 			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
 			<AcceptHumans>false</AcceptHumans>

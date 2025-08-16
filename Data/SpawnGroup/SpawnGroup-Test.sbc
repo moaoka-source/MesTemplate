@@ -7,13 +7,13 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>Tssting</SubtypeId>
+				<SubtypeId>TestShip</SubtypeId>
 			</Id>
 			<Description>
 
 				[Modular Encounters SpawnGroup]
 
-				[MinSpawnFromWorldCenter:3000000]
+				[MinSpawnFromWorldCenter:1700000]
 
 				[SpaceRandomEncounter:true]
 
@@ -35,8 +35,8 @@
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
-					<Speed>25</Speed>
-					<Behaviour>TestingBehavior</Behaviour>
+					<Speed>0</Speed>
+					<Behaviour>HorseFighter</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
