@@ -9,11 +9,12 @@ Inside Data
 3.Prefabs - ship model
 
 4.SpawnGroup -
-  1. Name of the Ship 
+  1. Name of the Ship
+     
   <SubtypeId>XXnameXX</SubtypeId>
 
 
-  2. How they Spawn
+  3. How they Spawn
      
   [SpaceRandomEncounter:true/false]
 
@@ -26,14 +27,16 @@ Inside Data
 
 
   4. Which Factions
+     
   [FactionOwner:XXnameXX]
 
 
-  5. Type of Autopilot
+  6. Type of Autopilot
+     
   <Behaviour>XXautopilot namexxr</Behaviour>
 
 
-    5. Which ship model
+  5. Which ship model
 
-&nbsp;        <Prefab SubtypeId="XXmodel nameXX">
+  <Prefab SubtypeId="XXmodel nameXX">
 
