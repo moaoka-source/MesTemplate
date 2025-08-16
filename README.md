@@ -1,35 +1,32 @@
 # MesTemplate
 
-
-
 Inside Data
+
 1.Autopilot - How the ship fight
+
 2.Factions - Factions Name MES use
 
 3.Prefabs - ship model
-4.SpawnGroup - 
-    1. Name of the Ship 
-         <SubtypeId>XXnameXX</SubtypeId>
+
+4.SpawnGroup -
+  1. Name of the Ship 
+  <SubtypeId>XXnameXX</SubtypeId>
 
 
-    2. How they Spawn
-
-&nbsp;        \[SpaceRandomEncounter:true/false]
-         \[BossEncounterSpace:true/false]
-         \[DroneEncounter:true/false]
-
-&nbsp;        \[StaticEncounter:true/false]
+  2. How they Spawn
+  [SpaceRandomEncounter:true/false]
+  [BossEncounterSpace:true/false]
+  [DroneEncounter:true/false]
+  [StaticEncounter:true/false]
 
 
 
-&nbsp;   3. Which Factions
+  3. Which Factions
+  [FactionOwner:XXnameXX]
 
-&nbsp;        \[FactionOwner:XXnameXX]
 
-
-    4. Type of Autopilot
-
-&nbsp;        <Behaviour>XXautopilot namexxr</Behaviour>
+  4. Type of Autopilot
+  <Behaviour>XXautopilot namexxr</Behaviour>
 
 
     5. Which ship model
