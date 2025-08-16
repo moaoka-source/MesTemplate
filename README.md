@@ -14,6 +14,7 @@ Inside Data
 
 
   2. How they Spawn
+     
   [SpaceRandomEncounter:true/false]
 
   [BossEncounterSpace:true/false]
