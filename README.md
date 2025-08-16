@@ -11,29 +11,29 @@ Inside Data
 4.SpawnGroup -
   1. Name of the Ship
      
-  <SubtypeId>XXnameXX</SubtypeId>
+  //<SubtypeId>XXnameXX</SubtypeId>//
 
 
   3. How they Spawn
      
-  [SpaceRandomEncounter:true/false]
+  //[SpaceRandomEncounter:true/false]//
 
-  [BossEncounterSpace:true/false]
+  //[BossEncounterSpace:true/false]//
   
-  [DroneEncounter:true/false]
+ //[DroneEncounter:true/false]//
   
-  [StaticEncounter:true/false]
+  //[StaticEncounter:true/false]//
 
 
 
   4. Which Factions
      
-  [FactionOwner:XXnameXX]
+  //[FactionOwner:XXnameXX]//
 
 
   6. Type of Autopilot
      
-  <Behaviour>XXautopilot namexxr</Behaviour>
+  //<Behaviour>XXautopilot namexxr</Behaviour>//
 
 
   5. Which ship model
