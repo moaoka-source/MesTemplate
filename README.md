@@ -15,17 +15,20 @@ Inside Data
 
   2. How they Spawn
   [SpaceRandomEncounter:true/false]
+
   [BossEncounterSpace:true/false]
+  
   [DroneEncounter:true/false]
+  
   [StaticEncounter:true/false]
 
 
 
-  3. Which Factions
+  4. Which Factions
   [FactionOwner:XXnameXX]
 
 
-  4. Type of Autopilot
+  5. Type of Autopilot
   <Behaviour>XXautopilot namexxr</Behaviour>
 
 
