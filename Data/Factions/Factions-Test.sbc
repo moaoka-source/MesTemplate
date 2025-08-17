@@ -7,9 +7,9 @@
 		<Faction Tag="TEST" Founder="Test">
 			<Id>
 				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>Test</SubtypeId> <!--Must Be Unique-->
+				<SubtypeId>TEST</SubtypeId> <!--Must Be Unique-->
 			</Id>
-			<DisplayName>Test</DisplayName>
+			<DisplayName>TEST</DisplayName>
 			<IsDefault>true</IsDefault>
 			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
 			<AcceptHumans>false</AcceptHumans>
