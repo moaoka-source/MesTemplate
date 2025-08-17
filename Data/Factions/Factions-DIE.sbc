@@ -4,12 +4,12 @@
 	<!--Do Not Edit Above Here-->
 
 		<!--Copy From This Line-->
-		<Faction Tag="TEST" Founder="Test">
+		<Faction Tag="DIE" Founder="DIE NPC1025">
 			<Id>
 				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>TEST</SubtypeId> <!--Must Be Unique-->
+				<SubtypeId>DIE</SubtypeId> <!--Must Be Unique-->
 			</Id>
-			<DisplayName>TEST</DisplayName>
+			<DisplayName>Space raiders</DisplayName>
 			<IsDefault>true</IsDefault>
 			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
 			<AcceptHumans>false</AcceptHumans>
