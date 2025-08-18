@@ -7,7 +7,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>Swordfish</SubtypeId>
+				<SubtypeId>BattleCruiser</SubtypeId>
 			</Id>
 			<Description>
 
@@ -27,14 +27,14 @@
 			<IsPirate>true</IsPirate> <!--Do not edit-->
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="Heavy_Pirate_Swordfish_DIE">
+				<Prefab SubtypeId="DIE_Pirate_battle-cruiser">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>100</Speed>
-					<Behaviour>Behavior-HorseFighter</Behaviour>
+					<Behaviour>Behavior-Horsefly</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>

@@ -10,26 +10,26 @@
       </Id>
       <Description>
 
-        [RivalAI Autopilot]
+		  [RivalAI Autopilot]
 
-        [DisableInertiaDampeners:false]
-        [SlowDownOnWaypointApproach:true]
-        [FlyLevelWithGravity:false]
-        [MinimumPlanetAltitude:200]
-        [IdealPlanetAltitude:300]
-        [WaypointTolerance:30]
-        [OffsetSpaceMinDistFromTarget:150]
-        [OffsetSpaceMaxDistFromTarget:300]
-        [OffsetPlanetMinDistFromTarget:150]
-        [OffsetPlanetMaxDistFromTarget:300]
-        [OffsetPlanetMinTargetAltitude:-200]
-        [OffsetPlanetMaxTargetAltitude:200]
-        [AllowStrafing:true]
-        [StrafeMinDurationMs:1000]
-        [StrafeMaxDurationMs:1500]
-        [StrafeSpeedCutOff:45]
+		  [DisableInertiaDampeners:false]
+		  [SlowDownOnWaypointApproach:true]
+		  [FlyLevelWithGravity:false]
+		  [MinimumPlanetAltitude:200]
+		  [IdealPlanetAltitude:300]
+		  [WaypointTolerance:30]
+		  [OffsetSpaceMinDistFromTarget:700]
+		  [OffsetSpaceMaxDistFromTarget:1000]
+		  [OffsetPlanetMinDistFromTarget:700]
+		  [OffsetPlanetMaxDistFromTarget:1000]
+		  [OffsetPlanetMinTargetAltitude:-200]
+		  [OffsetPlanetMaxTargetAltitude:200]
+		  [AllowStrafing:true]
+		  [StrafeMinDurationMs:1000]
+		  [StrafeMaxDurationMs:1500]
+		  [StrafeSpeedCutOff:45]
 
-      </Description>
+	  </Description>
 
     </EntityComponent>
     
