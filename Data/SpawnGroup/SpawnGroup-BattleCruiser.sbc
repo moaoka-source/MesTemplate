@@ -33,7 +33,7 @@
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
-					<Speed>100</Speed>
+					<Speed>90</Speed>
 					<Behaviour>Behavior-Horsefly</Behaviour>
 				</Prefab>
 			</Prefabs>
