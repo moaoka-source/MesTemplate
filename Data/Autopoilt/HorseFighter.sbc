@@ -13,21 +13,35 @@
 		  [RivalAI Autopilot]
 
 		  [DisableInertiaDampeners:false]
+		  [ForceDampenersEnabled:true]
 		  [SlowDownOnWaypointApproach:true]
+		  [ExtraSlowDownDistance:250]
 		  [FlyLevelWithGravity:false]
 		  [MinimumPlanetAltitude:200]
 		  [IdealPlanetAltitude:300]
 		  [WaypointTolerance:30]
-		  [OffsetSpaceMinDistFromTarget:700]
+		  [OffsetSpaceMinDistFromTarget:500]
 		  [OffsetSpaceMaxDistFromTarget:1000]
-		  [OffsetPlanetMinDistFromTarget:700]
+		  [OffsetPlanetMinDistFromTarget:500]
 		  [OffsetPlanetMaxDistFromTarget:1000]
 		  [OffsetPlanetMinTargetAltitude:-200]
 		  [OffsetPlanetMaxTargetAltitude:200]
 		  [AllowStrafing:true]
 		  [StrafeMinDurationMs:1000]
-		  [StrafeMaxDurationMs:1500]
-		  [StrafeSpeedCutOff:45]
+		  [StrafeMaxDurationMs:3000]
+		  [StrafeSpeedCutOff:20]
+
+		  [IdealMinSpeed:10]
+		  [IdealMaxSpeed:100]
+		  [MaxSpeedTolerance:5]
+
+		  [LimitRotationSpeed:true]
+		  [MaxRotationMagnitude:0.6]
+
+		  [UseProjectileLeadPrediction:true]
+		  [UseVelocityCollisionEvasion:true]
+
+
 
 	  </Description>
 

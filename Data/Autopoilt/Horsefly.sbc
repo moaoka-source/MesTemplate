@@ -10,22 +10,33 @@
       </Id>
       <Description>
 
-        [RivalAI Autopilot]
+		  [RivalAI Autopilot]
 
-        [DisableInertiaDampeners:false]
-        [SlowDownOnWaypointApproach:true]
-        [FlyLevelWithGravity:true]
-        [MinimumPlanetAltitude:200]
-        [IdealPlanetAltitude:300]
-        [WaypointTolerance:30]
-        [OffsetSpaceMinDistFromTarget:600]
-        [OffsetSpaceMaxDistFromTarget:800]
-        [OffsetPlanetMinDistFromTarget:600]
-        [OffsetPlanetMaxDistFromTarget:800]
-        [OffsetPlanetMinTargetAltitude:-200]
-        [OffsetPlanetMaxTargetAltitude:200]
+		  [DisableInertiaDampeners:false]
+		  [ForceDampenersEnabled:true]
+		  [SlowDownOnWaypointApproach:true]
+		  [ExtraSlowDownDistance:250]
+		  [FlyLevelWithGravity:true]
+		  [MinimumPlanetAltitude:200]
+		  [IdealPlanetAltitude:300]
+		  [WaypointTolerance:30]
+		  [OffsetSpaceMinDistFromTarget:500]
+		  [OffsetSpaceMaxDistFromTarget:900]
+		  [OffsetPlanetMinDistFromTarget:500]
+		  [OffsetPlanetMaxDistFromTarget:900]
+		  [OffsetPlanetMinTargetAltitude:-200]
+		  [OffsetPlanetMaxTargetAltitude:200]
 
-      </Description>
+		  [IdealMinSpeed:10]
+		  [IdealMaxSpeed:100]
+		  [MaxSpeedTolerance:5]
+
+		  [LimitRotationSpeed:true]
+		  [MaxRotationMagnitude:0.6]
+
+		  [UseVelocityCollisionEvasion:true]
+
+	  </Description>
 
     </EntityComponent>
     

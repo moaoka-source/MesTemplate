@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+	<!--Do Not Edit Above Here-->
+
+		<!--Copy From This Line-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>Interceptor</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[MinSpawnFromWorldCenter:1700000]
+
+				[SpaceRandomEncounter:true]
+
+				[FactionOwner:DIE]
+
+				[ReplenishSystems:true]
+				[UseRivalAi:true]
+				[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>2.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[MES]Interceptor_Frigate">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>80</Speed>
+					<Behaviour>Behavior-HorseFighter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!--Copy To This Line And Paste Directly Below-->
+		
+
+
+	<!--Do Not Edit Below Here-->
+	</SpawnGroups>
+</Definitions>

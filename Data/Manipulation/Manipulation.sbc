@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<EntityComponents>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Manipulation</SubtypeId>
+			</Id>
+			<Description>
+
+				[MES Manipulation]
+
+				[SkinRandomBlocks:true]
+				[MinPercentageSkinRandomBlocks:15]
+				[MaxPercentageSkinRandomBlocks:40]
+				[SkinRandomBlocksTextures:Rusty_Armor]
+				[SkinRandomBlocksTextures:Battered_Armor]
+				[SkinRandomBlocksTextures:Heavy_Rust_Armor]
+
+				[ReduceBlockBuildStates:true]
+				[MinimumBlocksPercent:5]
+				[MaximumBlocksPercent:15]
+				[MinimumBuildPercent:10]
+				[MaximumBuildPercent:75]
+
+				[UseLootProfiles:true]
+				[LootProfiles:BasicContainers]
+
+			</Description>
+
+		</EntityComponent>
+
+	</EntityComponents>
+</Definitions>

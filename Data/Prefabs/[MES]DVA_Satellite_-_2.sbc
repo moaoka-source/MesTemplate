@@ -1,0 +1,723 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Prefabs>
+    <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="[MES]DVA_Satellite_-_2" />
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>132718162721692051</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <Name>124271874697076719</Name>
+          <PositionAndOrientation>
+            <Position x="1858293.7528456245" y="-5817320.9039556365" z="5823483.1676884368" />
+            <Forward x="0.309222966" y="0.313472629" z="-0.897839665" />
+            <Up x="-0.606439233" y="0.792239" z="0.06774073" />
+            <Orientation>
+              <X>0.103028871</X>
+              <Y>-0.201159686</Y>
+              <Z>0.305394083</Z>
+              <W>0.9250158</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <ComponentContainer>
+            <Components>
+              <ComponentData>
+                <TypeId>MyModStorageComponent</TypeId>
+                <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+                  <Storage>
+                    <dictionary>
+                      <item>
+                        <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                        <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjAqPCz88sBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjAqPCz88sBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQDqAQCAAgCKAgCSAgCYAgCiAgQIARAPsAIAuAL///////////8BwgIAygIA4AIA6AIA</Value>
+                      </item>
+                    </dictionary>
+                  </Storage>
+                </Component>
+              </ComponentData>
+            </Components>
+          </ComponentContainer>
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <IntegrityPercent>0.8703746</IntegrityPercent>
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>48</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
+              <SubtypeName>TimerBlockReskinLarge</SubtypeName>
+              <EntityId>133699741860533279</EntityId>
+              <Name>133699741860533279</Name>
+              <Min x="-1" y="0" z="0" />
+              <IntegrityPercent>0.457282364</IntegrityPercent>
+              <BuildPercent>0.999984741</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>84</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
+              <Enabled>true</Enabled>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <Delay>10000</Delay>
+              <CurrentTime>0</CurrentTime>
+              <IsCountingDown>false</IsCountingDown>
+              <Silent>false</Silent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="0" z="0" />
+              <IntegrityPercent>0.855985343</IntegrityPercent>
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>80</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="0" z="0" />
+              <IntegrityPercent>0.8271916</IntegrityPercent>
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>128</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>LargeBlockBatteryBlock</SubtypeName>
+              <EntityId>125795794764849439</EntityId>
+              <Name>125795794764849439</Name>
+              <Min x="-4" y="0" z="0" />
+              <IntegrityPercent>0.9693599</IntegrityPercent>
+              <BuildPercent>0.999984741</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>80</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>3</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockColorableSolarPanel</SubtypeName>
+              <EntityId>72316909414735452</EntityId>
+              <Name>72316909414735452</Name>
+              <Min x="-4" y="0" z="1" />
+              <IntegrityPercent>0.166659042</IntegrityPercent>
+              <BuildPercent>0.166659042</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>4</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>BulletproofGlass</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>14</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>Construction</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>32</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>SolarCell</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>4</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>Computer</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>12</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>Girder</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>1</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>SteelPlate</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockColorableSolarPanel</SubtypeName>
+              <EntityId>92249803854174121</EntityId>
+              <Name>92249803854174121</Name>
+              <Min x="-4" y="0" z="-4" />
+              <IntegrityPercent>0.262531459</IntegrityPercent>
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>8</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>BulletproofGlass</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>14</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>Construction</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>32</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>SolarCell</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>6</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>Computer</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>12</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>Girder</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>1</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>SteelPlate</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>156</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TransponderBlock">
+              <SubtypeName>LargeBlockTransponder</SubtypeName>
+              <EntityId>74225117880095140</EntityId>
+              <Name>74225117880095140</Name>
+              <Min x="-5" y="0" z="0" />
+              <IntegrityPercent>0.5701381</IntegrityPercent>
+              <BuildPercent>0.999984741</BuildPercent>
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>354</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MySignalChannelEntityComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_SignalChannelEntityComponent" />
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MySignalSenderEntityComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_SignalSenderEntityComponent" />
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MySignalReceiverEntityComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_SignalReceiverEntityComponent">
+                      <Toolbar>
+                        <ToolbarType>Character</ToolbarType>
+                        <SelectedSlot xsi:nil="true" />
+                        <Slots />
+                        <SlotsGamepad />
+                      </Toolbar>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MySignalConnectivityCheckerEntityComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_SignalConnectivityCheckerEntityComponent" />
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>LargeBlockCompactRadioAntenna</SubtypeName>
+              <EntityId>126640456455929543</EntityId>
+              <Name>126640456455929543</Name>
+              <Min x="-8" y="0" z="0" />
+              <IntegrityPercent>0.6850385</IntegrityPercent>
+              <BuildPercent>0.999984741</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>376</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>5000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
+              <EnableBroadcasting>true</EnableBroadcasting>
+              <AttachedPB>0</AttachedPB>
+              <IgnoreAllied>false</IgnoreAllied>
+              <IgnoreOther>true</IgnoreOther>
+              <HudText />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SensorBlock">
+              <SubtypeName>LargeBlockSensor</SubtypeName>
+              <EntityId>94091352209575707</EntityId>
+              <Name>94091352209575707</Name>
+              <Min x="0" y="1" z="0" />
+              <IntegrityPercent>0.7203784</IntegrityPercent>
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>32</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>false</Enabled>
+              <FieldMin x="-5" y="-5" z="-5" />
+              <FieldMax x="5" y="5" z="5" />
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <PlaySound>true</PlaySound>
+              <DetectPlayers>true</DetectPlayers>
+              <DetectFloatingObjects>false</DetectFloatingObjects>
+              <DetectSmallShips>false</DetectSmallShips>
+              <DetectLargeShips>false</DetectLargeShips>
+              <DetectStations>false</DetectStations>
+              <DetectSubgrids>false</DetectSubgrids>
+              <IsActive>false</IsActive>
+              <DetectAsteroids>false</DetectAsteroids>
+              <DetectOwner>true</DetectOwner>
+              <DetectFriendly>true</DetectFriendly>
+              <DetectNeutral>true</DetectNeutral>
+              <DetectEnemy>true</DetectEnemy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>LargeBlockCompactRadioAntennaReskin</SubtypeName>
+              <EntityId>89128252358705043</EntityId>
+              <Name>89128252358705043</Name>
+              <Min x="0" y="-1" z="-1" />
+              <IntegrityPercent>0.8005188</IntegrityPercent>
+              <BuildPercent>0.999984741</BuildPercent>
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>27</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>RadioCommunication</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>11</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>SmallTube</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>80</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>InteriorPlate</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>28</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>SteelPlate</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>16</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>Construction</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>8</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>Computer</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>316</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <BroadcastRadius>5000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
+              <EnableBroadcasting>true</EnableBroadcasting>
+              <AttachedPB>0</AttachedPB>
+              <IgnoreAllied>false</IgnoreAllied>
+              <IgnoreOther>true</IgnoreOther>
+              <HudText />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>LargeBlockCompactRadioAntennaReskin</SubtypeName>
+              <EntityId>115621627881430042</EntityId>
+              <Name>115621627881430042</Name>
+              <Min x="0" y="-1" z="1" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <CustomName>DVA Satellite</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <BroadcastRadius>5000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
+              <EnableBroadcasting>true</EnableBroadcasting>
+              <AttachedPB>0</AttachedPB>
+              <IgnoreAllied>false</IgnoreAllied>
+              <IgnoreOther>true</IgnoreOther>
+              <HudText>*error*</HudText>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SensorBlock">
+              <SubtypeName>LargeBlockSensor</SubtypeName>
+              <EntityId>114282878263099991</EntityId>
+              <Name>114282878263099991</Name>
+              <Min x="-2" y="0" z="1" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>6</NumberInGrid>
+              <Enabled>false</Enabled>
+              <FieldMin x="-5" y="-5" z="-5" />
+              <FieldMax x="5" y="5" z="5" />
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <PlaySound>true</PlaySound>
+              <DetectPlayers>true</DetectPlayers>
+              <DetectFloatingObjects>false</DetectFloatingObjects>
+              <DetectSmallShips>false</DetectSmallShips>
+              <DetectLargeShips>false</DetectLargeShips>
+              <DetectStations>false</DetectStations>
+              <DetectSubgrids>false</DetectSubgrids>
+              <IsActive>true</IsActive>
+              <DetectAsteroids>false</DetectAsteroids>
+              <DetectOwner>true</DetectOwner>
+              <DetectFriendly>true</DetectFriendly>
+              <DetectNeutral>true</DetectNeutral>
+              <DetectEnemy>true</DetectEnemy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SensorBlock">
+              <SubtypeName>LargeBlockSensor</SubtypeName>
+              <EntityId>143886319554767125</EntityId>
+              <Name>143886319554767125</Name>
+              <Min x="-2" y="1" z="0" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>7</NumberInGrid>
+              <Enabled>false</Enabled>
+              <FieldMin x="-5" y="-5" z="-5" />
+              <FieldMax x="5" y="5" z="5" />
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <PlaySound>true</PlaySound>
+              <DetectPlayers>true</DetectPlayers>
+              <DetectFloatingObjects>false</DetectFloatingObjects>
+              <DetectSmallShips>false</DetectSmallShips>
+              <DetectLargeShips>false</DetectLargeShips>
+              <DetectStations>false</DetectStations>
+              <DetectSubgrids>false</DetectSubgrids>
+              <IsActive>true</IsActive>
+              <DetectAsteroids>false</DetectAsteroids>
+              <DetectOwner>true</DetectOwner>
+              <DetectFriendly>true</DetectFriendly>
+              <DetectNeutral>true</DetectNeutral>
+              <DetectEnemy>true</DetectEnemy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SensorBlock">
+              <SubtypeName>LargeBlockSensor</SubtypeName>
+              <EntityId>89413834349245506</EntityId>
+              <Name>89413834349245506</Name>
+              <Min x="-2" y="0" z="-1" />
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>8</NumberInGrid>
+              <Enabled>false</Enabled>
+              <FieldMin x="-5" y="-5" z="-5" />
+              <FieldMax x="5" y="5" z="5" />
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <PlaySound>true</PlaySound>
+              <DetectPlayers>true</DetectPlayers>
+              <DetectFloatingObjects>false</DetectFloatingObjects>
+              <DetectSmallShips>false</DetectSmallShips>
+              <DetectLargeShips>false</DetectLargeShips>
+              <DetectStations>false</DetectStations>
+              <DetectSubgrids>false</DetectSubgrids>
+              <IsActive>true</IsActive>
+              <DetectAsteroids>false</DetectAsteroids>
+              <DetectOwner>true</DetectOwner>
+              <DetectFriendly>true</DetectFriendly>
+              <DetectNeutral>true</DetectNeutral>
+              <DetectEnemy>true</DetectEnemy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+              <SubtypeName>LargeCameraTopMounted</SubtypeName>
+              <EntityId>101251488380345218</EntityId>
+              <Name>101251488380345218</Name>
+              <Min x="-4" y="-1" z="0" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>false</Enabled>
+              <IsActive>false</IsActive>
+              <Fov>1</Fov>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>Freight1</SubtypeName>
+              <EntityId>109832959183305397</EntityId>
+              <Name>109832959183305397</Name>
+              <Min x="-3" y="-1" z="0" />
+              <IntegrityPercent>0.890898</IntegrityPercent>
+              <BuildPercent>0.999984741</BuildPercent>
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0.591666639" y="-0.39" z="0.41" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>4</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <CanPutItems>true</CanPutItems>
+                      <Items>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>30000</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_PhysicalObject">
+                            <SubtypeName>SpaceCredit</SubtypeName>
+                          </PhysicalContent>
+                          <ItemId>0</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                      </Items>
+                      <nextItemId>1</nextItemId>
+                      <Volume>1</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>TrussPillarOffset</SubtypeName>
+              <EntityId>111418512622717993</EntityId>
+              <Name>111418512622717993</Name>
+              <Min x="-5" y="0" z="-4" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>TrussPillarOffset</SubtypeName>
+              <EntityId>90072408316697757</EntityId>
+              <Name>90072408316697757</Name>
+              <Min x="-2" y="0" z="-4" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>TrussPillarOffset</SubtypeName>
+              <EntityId>75822458511795908</EntityId>
+              <Name>75822458511795908</Name>
+              <Min x="-2" y="0" z="4" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>TrussPillarOffset</SubtypeName>
+              <EntityId>134662062192247361</EntityId>
+              <Name>134662062192247361</Name>
+              <Min x="-5" y="0" z="-2" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>TrussPillarOffset</SubtypeName>
+              <EntityId>114061561847469293</EntityId>
+              <Name>114061561847469293</Name>
+              <Min x="-2" y="0" z="-2" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>TrussPillarOffset</SubtypeName>
+              <EntityId>141469697963456592</EntityId>
+              <Name>141469697963456592</Name>
+              <Min x="-2" y="0" z="2" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <DisplayName>[MES]DVA Satellite - 2</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>92</LocalCoordSys>
+          <TargetingTargets />
+          <NPCGridClaimElapsed xsi:nil="true" />
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+    </Prefab>
+  </Prefabs>
+</Definitions>

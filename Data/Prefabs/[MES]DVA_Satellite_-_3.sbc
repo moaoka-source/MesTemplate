@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Prefabs>
+    <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="[MES]DVA_Satellite_-_3" />
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>110446842330901828</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <Name>114492709788744309</Name>
+          <PositionAndOrientation>
+            <Position x="1858302.2190321479" y="-5817339.36635798" z="5823479.6374149993" />
+            <Forward x="0.3092229" y="0.313472658" z="-0.897839665" />
+            <Up x="-0.606439233" y="0.792239" z="0.06774079" />
+            <Orientation>
+              <X>0.103028893</X>
+              <Y>-0.201159656</Y>
+              <Z>0.305394083</Z>
+              <W>0.9250158</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <ComponentContainer>
+            <Components>
+              <ComponentData>
+                <TypeId>MyModStorageComponent</TypeId>
+                <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+                  <Storage>
+                    <dictionary>
+                      <item>
+                        <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                        <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCAiM1NyMGhADcgB4AIABAIgBAZABAJkBAAAAAAAAAACoAQCwAQC6ARsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAA8L/CARsJAAAAAAAAAAAhAAAAAAAA8D85AAAAAAAAAADKAQgIjNTcjBoQA9IBTggAEAAYACAAKAAwATgAQABIAFAAWABgAGgAcAB4AIABAIgBAJABAJgBAKABAKgBALABALgBAMABAMgBANABANgBAOABAOgBAPABAPgBANoBTggAEAAYACAAKAAwADgAQABIAFAAWABgAGgAcAB4AIABAIgBAJABAJgBAKABAKgBAbABAbgBAcABAcgBAdABANgBAOABAOgBAPABAPgBAOIBAOoBAIACAIoCAJICAJgCAKICBAgBEA+wAgC4Av///////////wHCAgDKAgDgAgDoAgA=</Value>
+                      </item>
+                    </dictionary>
+                  </Storage>
+                </Component>
+              </ComponentData>
+            </Components>
+          </ComponentContainer>
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <ColorMaskHSV x="0.5638889" y="0.2" z="0.55" />
+              <SkinSubtypeId>Wartorn</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="1" y="0" z="0" />
+              <ColorMaskHSV x="0.5638889" y="0.2" z="0.55" />
+              <SkinSubtypeId>Wartorn</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
+              <SubtypeName>TimerBlockReskinLarge</SubtypeName>
+              <EntityId>103371073214579908</EntityId>
+              <Name>103371073214579908</Name>
+              <Min x="-1" y="0" z="0" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.5638889" y="0.2" z="0.55" />
+              <SkinSubtypeId>Wartorn</SkinSubtypeId>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <Delay>10000</Delay>
+              <CurrentTime>0</CurrentTime>
+              <IsCountingDown>false</IsCountingDown>
+              <Silent>false</Silent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>LargeBlockBatteryBlock</SubtypeName>
+              <EntityId>108217444802071607</EntityId>
+              <Name>108217444802071607</Name>
+              <Min x="-2" y="0" z="0" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.5638889" y="0.2" z="0.55" />
+              <SkinSubtypeId>Wartorn</SkinSubtypeId>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>3</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BroadcastController">
+              <SubtypeName>LargeBlockBroadcastController</SubtypeName>
+              <EntityId>86970512622699447</EntityId>
+              <Name>86970512622699447</Name>
+              <Min x="-3" y="0" z="0" />
+              <IntegrityPercent>0.9272603</IntegrityPercent>
+              <ColorMaskHSV x="0.5638889" y="0.2" z="0.55" />
+              <SkinSubtypeId>Wartorn</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>12</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyChatBroadcastEntityComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_ChatBroadcastEntityComponent">
+                      <BroadcastTarget>0</BroadcastTarget>
+                      <UseAntenna>true</UseAntenna>
+                      <CustomName />
+                      <Messages>
+                        <string />
+                        <string />
+                        <string />
+                        <string />
+                        <string />
+                        <string />
+                        <string />
+                        <string />
+                      </Messages>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OreDetector">
+              <SubtypeName>LargeOreDetector</SubtypeName>
+              <EntityId>112970429677796406</EntityId>
+              <Name>112970429677796406</Name>
+              <Min x="2" y="0" z="0" />
+              <IntegrityPercent>0.6753796</IntegrityPercent>
+              <BuildPercent>0.783199847</BuildPercent>
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0.5638889" y="0.2" z="0.55" />
+              <SkinSubtypeId>Wartorn</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>36</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <DetectionRadius>150</DetectionRadius>
+              <BroadcastUsingAntennas>true</BroadcastUsingAntennas>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>LargeBlockCompactRadioAntenna</SubtypeName>
+              <EntityId>103071181204191237</EntityId>
+              <Name>103071181204191237</Name>
+              <Min x="-6" y="0" z="0" />
+              <IntegrityPercent>0.8458381</IntegrityPercent>
+              <BuildPercent>0.8666514</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0.5638889" y="0.2" z="0.55" />
+              <SkinSubtypeId>Wartorn</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>16</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>5000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
+              <EnableBroadcasting>true</EnableBroadcasting>
+              <AttachedPB>0</AttachedPB>
+              <IgnoreAllied>false</IgnoreAllied>
+              <IgnoreOther>true</IgnoreOther>
+              <HudText />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockColorableSolarPanelCorner</SubtypeName>
+              <EntityId>78539967169939181</EntityId>
+              <Name>78539967169939181</Name>
+              <Min x="-1" y="1" z="0" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0.5638889" y="0.2" z="0.55" />
+              <SkinSubtypeId>Wartorn</SkinSubtypeId>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockColorableSolarPanelCornerInverted</SubtypeName>
+              <EntityId>76590414704674284</EntityId>
+              <Name>76590414704674284</Name>
+              <Min x="-1" y="-2" z="0" />
+              <IntegrityPercent>0.34374</IntegrityPercent>
+              <BuildPercent>0.999984741</BuildPercent>
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0.5638889" y="0.2" z="0.55" />
+              <SkinSubtypeId>Wartorn</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>32</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>Freight1</SubtypeName>
+              <EntityId>83760997471168592</EntityId>
+              <Name>83760997471168592</Name>
+              <Min x="0" y="0" z="1" />
+              <BlockOrientation Forward="Left" Up="Backward" />
+              <ColorMaskHSV x="0.5638889" y="0.2" z="0.55" />
+              <SkinSubtypeId>Wartorn</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <CanPutItems>true</CanPutItems>
+                      <Items>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>150</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
+                            <SubtypeName>Uranium</SubtypeName>
+                          </PhysicalContent>
+                          <ItemId>0</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                      </Items>
+                      <nextItemId>1</nextItemId>
+                      <Volume>1</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <DisplayName>[MES]DVA Satellite - 3</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>6439</LocalCoordSys>
+          <TargetingTargets />
+          <NPCGridClaimElapsed xsi:nil="true" />
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+    </Prefab>
+  </Prefabs>
+</Definitions>

@@ -57,6 +57,9 @@
 		  [RivalAI Behavior]
 		  [BehaviorName:HorseFighter]
 		  [AutopilotData:HorseFighter]
+		  [HorseFighterTimeApproaching:120]
+		  [HorseFighterTimeEngaging:120]
+
 
 	  </Description>
 

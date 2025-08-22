@@ -25,15 +25,15 @@
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>1.0</Frequency>
+			<Frequency>2.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="Heavy_Pirate_Swordfish_DIE">
+				<Prefab SubtypeId="[MES]Heavy_Pirate_Swordfish_DIE">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
-					<Speed>90</Speed>
+					<Speed>80</Speed>
 					<Behaviour>Behavior-HorseFighter</Behaviour>
 				</Prefab>
 			</Prefabs>

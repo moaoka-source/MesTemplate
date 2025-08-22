@@ -1,0 +1,540 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Prefabs>
+    <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="[MES]DVA_Satellite_-_1" />
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>111434144734546328</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <Name>92214647656069035</Name>
+          <PositionAndOrientation>
+            <Position x="1858285.1140516791" y="-5817311.5261480194" z="5823480.6820927337" />
+            <Forward x="0.309222966" y="0.313472658" z="-0.897839665" />
+            <Up x="-0.606439233" y="0.792239" z="0.06774076" />
+            <Orientation>
+              <X>0.103028886</X>
+              <Y>-0.201159686</Y>
+              <Z>0.305394083</Z>
+              <W>0.9250158</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <ComponentContainer>
+            <Components>
+              <ComponentData>
+                <TypeId>MyModStorageComponent</TypeId>
+                <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+                  <Storage>
+                    <dictionary>
+                      <item>
+                        <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                        <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgig6e+z88sBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgig6e+z88sBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQDqAQCAAgCKAgCSAgCYAgCiAgQIARAPsAIAuAL///////////8BwgIAygIA4AIA6AIA</Value>
+                      </item>
+                    </dictionary>
+                  </Storage>
+                </Component>
+              </ComponentData>
+            </Components>
+          </ComponentContainer>
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="0" z="0" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="0" z="0" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="0" z="0" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>LargeBlockBatteryBlock</SubtypeName>
+              <EntityId>138616053999762534</EntityId>
+              <Name>138616053999762534</Name>
+              <Min x="-4" y="0" z="0" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>3</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>119994463698958831</EntityId>
+              <Name>119994463698958831</Name>
+              <Min x="-4" y="0" z="-4" />
+              <IntegrityPercent>0.333333343</IntegrityPercent>
+              <BuildPercent>0.333333343</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>137860695400404623</EntityId>
+              <Name>137860695400404623</Name>
+              <Min x="-4" y="0" z="1" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>LargeBlockRadioAntennaDish</SubtypeName>
+              <EntityId>91824149843575972</EntityId>
+              <Name>91824149843575972</Name>
+              <Min x="1" y="-2" z="-2" />
+              <IntegrityPercent>0.4999924</IntegrityPercent>
+              <BuildPercent>0.4999924</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>5000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
+              <EnableBroadcasting>true</EnableBroadcasting>
+              <AttachedPB>0</AttachedPB>
+              <IgnoreAllied>false</IgnoreAllied>
+              <IgnoreOther>true</IgnoreOther>
+              <HudText />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TransponderBlock">
+              <SubtypeName>LargeBlockTransponder</SubtypeName>
+              <EntityId>107939243294741840</EntityId>
+              <Name>107939243294741840</Name>
+              <Min x="-5" y="0" z="0" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MySignalChannelEntityComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_SignalChannelEntityComponent" />
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MySignalSenderEntityComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_SignalSenderEntityComponent" />
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MySignalReceiverEntityComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_SignalReceiverEntityComponent">
+                      <Toolbar>
+                        <ToolbarType>Character</ToolbarType>
+                        <SelectedSlot xsi:nil="true" />
+                        <Slots />
+                        <SlotsGamepad />
+                      </Toolbar>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MySignalConnectivityCheckerEntityComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_SignalConnectivityCheckerEntityComponent" />
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>LargeBlockCompactRadioAntenna</SubtypeName>
+              <EntityId>75379413620321751</EntityId>
+              <Name>75379413620321751</Name>
+              <Min x="-8" y="0" z="0" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>5000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
+              <EnableBroadcasting>true</EnableBroadcasting>
+              <AttachedPB>0</AttachedPB>
+              <IgnoreAllied>false</IgnoreAllied>
+              <IgnoreOther>true</IgnoreOther>
+              <HudText />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SensorBlock">
+              <SubtypeName>LargeBlockSensor</SubtypeName>
+              <EntityId>105299199630025438</EntityId>
+              <Name>105299199630025438</Name>
+              <Min x="0" y="1" z="0" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <FieldMin x="-5" y="-5" z="-5" />
+              <FieldMax x="5" y="5" z="5" />
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <PlaySound>true</PlaySound>
+              <DetectPlayers>true</DetectPlayers>
+              <DetectFloatingObjects>false</DetectFloatingObjects>
+              <DetectSmallShips>false</DetectSmallShips>
+              <DetectLargeShips>false</DetectLargeShips>
+              <DetectStations>false</DetectStations>
+              <DetectSubgrids>false</DetectSubgrids>
+              <IsActive>false</IsActive>
+              <DetectAsteroids>false</DetectAsteroids>
+              <DetectOwner>true</DetectOwner>
+              <DetectFriendly>true</DetectFriendly>
+              <DetectNeutral>true</DetectNeutral>
+              <DetectEnemy>true</DetectEnemy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SensorBlock">
+              <SubtypeName>LargeBlockSensor</SubtypeName>
+              <EntityId>103303773382615186</EntityId>
+              <Name>103303773382615186</Name>
+              <Min x="0" y="0" z="-1" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <FieldMin x="-5" y="-5" z="-5" />
+              <FieldMax x="5" y="5" z="5" />
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <PlaySound>true</PlaySound>
+              <DetectPlayers>true</DetectPlayers>
+              <DetectFloatingObjects>false</DetectFloatingObjects>
+              <DetectSmallShips>false</DetectSmallShips>
+              <DetectLargeShips>false</DetectLargeShips>
+              <DetectStations>false</DetectStations>
+              <DetectSubgrids>false</DetectSubgrids>
+              <IsActive>false</IsActive>
+              <DetectAsteroids>false</DetectAsteroids>
+              <DetectOwner>true</DetectOwner>
+              <DetectFriendly>true</DetectFriendly>
+              <DetectNeutral>true</DetectNeutral>
+              <DetectEnemy>true</DetectEnemy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SensorBlock">
+              <SubtypeName>LargeBlockSensor</SubtypeName>
+              <EntityId>140223354998564850</EntityId>
+              <Name>140223354998564850</Name>
+              <Min x="0" y="-1" z="0" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <FieldMin x="-5" y="-5" z="-5" />
+              <FieldMax x="5" y="5" z="5" />
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <PlaySound>true</PlaySound>
+              <DetectPlayers>true</DetectPlayers>
+              <DetectFloatingObjects>false</DetectFloatingObjects>
+              <DetectSmallShips>false</DetectSmallShips>
+              <DetectLargeShips>false</DetectLargeShips>
+              <DetectStations>false</DetectStations>
+              <DetectSubgrids>false</DetectSubgrids>
+              <IsActive>false</IsActive>
+              <DetectAsteroids>false</DetectAsteroids>
+              <DetectOwner>true</DetectOwner>
+              <DetectFriendly>true</DetectFriendly>
+              <DetectNeutral>true</DetectNeutral>
+              <DetectEnemy>true</DetectEnemy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SensorBlock">
+              <SubtypeName>LargeBlockSensor</SubtypeName>
+              <EntityId>73330348080690135</EntityId>
+              <Name>73330348080690135</Name>
+              <Min x="0" y="0" z="1" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>5</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <FieldMin x="-5" y="-5" z="-5" />
+              <FieldMax x="5" y="5" z="5" />
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <PlaySound>true</PlaySound>
+              <DetectPlayers>true</DetectPlayers>
+              <DetectFloatingObjects>false</DetectFloatingObjects>
+              <DetectSmallShips>false</DetectSmallShips>
+              <DetectLargeShips>false</DetectLargeShips>
+              <DetectStations>false</DetectStations>
+              <DetectSubgrids>false</DetectSubgrids>
+              <IsActive>false</IsActive>
+              <DetectAsteroids>false</DetectAsteroids>
+              <DetectOwner>true</DetectOwner>
+              <DetectFriendly>true</DetectFriendly>
+              <DetectNeutral>true</DetectNeutral>
+              <DetectEnemy>true</DetectEnemy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SensorBlock">
+              <SubtypeName>LargeBlockSensor</SubtypeName>
+              <EntityId>113390593812197497</EntityId>
+              <Name>113390593812197497</Name>
+              <Min x="-2" y="0" z="1" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>6</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <FieldMin x="-5" y="-5" z="-5" />
+              <FieldMax x="5" y="5" z="5" />
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <PlaySound>true</PlaySound>
+              <DetectPlayers>true</DetectPlayers>
+              <DetectFloatingObjects>false</DetectFloatingObjects>
+              <DetectSmallShips>false</DetectSmallShips>
+              <DetectLargeShips>false</DetectLargeShips>
+              <DetectStations>false</DetectStations>
+              <DetectSubgrids>false</DetectSubgrids>
+              <IsActive>true</IsActive>
+              <DetectAsteroids>false</DetectAsteroids>
+              <DetectOwner>true</DetectOwner>
+              <DetectFriendly>true</DetectFriendly>
+              <DetectNeutral>true</DetectNeutral>
+              <DetectEnemy>true</DetectEnemy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SensorBlock">
+              <SubtypeName>LargeBlockSensor</SubtypeName>
+              <EntityId>118345987942730462</EntityId>
+              <Name>118345987942730462</Name>
+              <Min x="-2" y="1" z="0" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>7</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <FieldMin x="-5" y="-5" z="-5" />
+              <FieldMax x="5" y="5" z="5" />
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <PlaySound>true</PlaySound>
+              <DetectPlayers>true</DetectPlayers>
+              <DetectFloatingObjects>false</DetectFloatingObjects>
+              <DetectSmallShips>false</DetectSmallShips>
+              <DetectLargeShips>false</DetectLargeShips>
+              <DetectStations>false</DetectStations>
+              <DetectSubgrids>false</DetectSubgrids>
+              <IsActive>true</IsActive>
+              <DetectAsteroids>false</DetectAsteroids>
+              <DetectOwner>true</DetectOwner>
+              <DetectFriendly>true</DetectFriendly>
+              <DetectNeutral>true</DetectNeutral>
+              <DetectEnemy>true</DetectEnemy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SensorBlock">
+              <SubtypeName>LargeBlockSensor</SubtypeName>
+              <EntityId>135966595841360381</EntityId>
+              <Name>135966595841360381</Name>
+              <Min x="-2" y="0" z="-1" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>8</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <FieldMin x="-5" y="-5" z="-5" />
+              <FieldMax x="5" y="5" z="5" />
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <PlaySound>true</PlaySound>
+              <DetectPlayers>true</DetectPlayers>
+              <DetectFloatingObjects>false</DetectFloatingObjects>
+              <DetectSmallShips>false</DetectSmallShips>
+              <DetectLargeShips>false</DetectLargeShips>
+              <DetectStations>false</DetectStations>
+              <DetectSubgrids>false</DetectSubgrids>
+              <IsActive>true</IsActive>
+              <DetectAsteroids>false</DetectAsteroids>
+              <DetectOwner>true</DetectOwner>
+              <DetectFriendly>true</DetectFriendly>
+              <DetectNeutral>true</DetectNeutral>
+              <DetectEnemy>true</DetectEnemy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SensorBlock">
+              <SubtypeName>LargeBlockSensor</SubtypeName>
+              <EntityId>76087850094231472</EntityId>
+              <Name>76087850094231472</Name>
+              <Min x="-2" y="-1" z="0" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>9</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <FieldMin x="-5" y="-5" z="-5" />
+              <FieldMax x="5" y="5" z="5" />
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <PlaySound>true</PlaySound>
+              <DetectPlayers>true</DetectPlayers>
+              <DetectFloatingObjects>false</DetectFloatingObjects>
+              <DetectSmallShips>false</DetectSmallShips>
+              <DetectLargeShips>false</DetectLargeShips>
+              <DetectStations>false</DetectStations>
+              <DetectSubgrids>false</DetectSubgrids>
+              <IsActive>true</IsActive>
+              <DetectAsteroids>false</DetectAsteroids>
+              <DetectOwner>true</DetectOwner>
+              <DetectFriendly>true</DetectFriendly>
+              <DetectNeutral>true</DetectNeutral>
+              <DetectEnemy>true</DetectEnemy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+              <SubtypeName>LargeCameraTopMounted</SubtypeName>
+              <EntityId>113011066250892955</EntityId>
+              <Name>113011066250892955</Name>
+              <Min x="-4" y="-1" z="0" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <IsSurvivalModeForced>true</IsSurvivalModeForced>
+              <Enabled>false</Enabled>
+              <IsActive>false</IsActive>
+              <Fov>1</Fov>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>Freight1</SubtypeName>
+              <EntityId>74422923177275541</EntityId>
+              <Name>74422923177275541</Name>
+              <Min x="-3" y="-1" z="0" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0.202777773" y="0.2" z="0.55" />
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <CanPutItems>true</CanPutItems>
+                      <Items>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>49</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                            <SubtypeName>Reactor</SubtypeName>
+                          </PhysicalContent>
+                          <ItemId>0</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>2</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                            <SubtypeName>PrototechMachinery</SubtypeName>
+                          </PhysicalContent>
+                          <ItemId>1</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                      </Items>
+                      <nextItemId>2</nextItemId>
+                      <Volume>1</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <DisplayName>[MES]DVA Satellite - 1</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>6438</LocalCoordSys>
+          <TargetingTargets />
+          <NPCGridClaimElapsed xsi:nil="true" />
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+    </Prefab>
+  </Prefabs>
+</Definitions>
